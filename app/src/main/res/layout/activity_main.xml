@@ -15,19 +15,50 @@
     android:layout_height="wrap_content"
     android:text="@string/hello" />
 
-  <Button
-    android:id="@+id/tutorial1"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:text="Button 1"
-    android:textStyle="bold" />
 
-  <Button
-    android:id="@+id/tutorial2"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="205dp">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" android:orientation="vertical">
+    <Button
+      android:id="@+id/tutorial1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Radio Buttons"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/tutorial2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="List View"
+      android:textStyle="bold" />
+    <Button
+      android:id="@+id/tutorial3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
     android:gravity="center"
-    android:text="Button 2"
+    android:text="Photo"
     android:textStyle="bold" />
+      <Button
+        android:id="@+id/tutoria4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Button 3"
+        android:textStyle="bold" />
+      <Button
+        android:id="@+id/tutoria5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Button 3"
+        android:textStyle="bold" />
+    </LinearLayout>
+  </ScrollView>
 </LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<ImageView
+  android:src="@drawable/aodai" android:id="@+id/IVdisplay"
+  android:layout_gravity="center"
+  android:layout_width="200dp"
+  android:layout_height="200dp"/>
+  <Button android:id="@+id/BsetWallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Set Image BG"/>
+ <HorizontalScrollView
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_gravity="center">
+   <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+  <ImageView
+    android:id="@+id/IVImage1"
+    android:padding="1dp"
+    android:src="@drawable/aodai"
+    android:layout_width="125dp"
+    android:layout_height="125dp"/>
+  <ImageView
+    android:id="@+id/IVImage2"
+    android:padding="1dp"
+    android:src="@drawable/longme1"
+    android:layout_width="125dp"
+    android:layout_height="125dp"/>
+  <ImageView
+    android:id="@+id/IVImage3"
+    android:padding="1dp"
+    android:src="@drawable/longme2"
+    android:layout_width="125dp"
+    android:layout_height="125dp"/>
+
+  <ImageView
+    android:id="@+id/IVImage4"
+    android:padding="1dp"
+    android:src="@drawable/aodai"
+    android:layout_width="125dp"
+    android:layout_height="125dp"/>
+</LinearLayout>
+ </HorizontalScrollView>
+</LinearLayout>
