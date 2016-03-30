@@ -8,43 +8,60 @@
     android:label="@string/app_name"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <activity android:name=".MainActivity"
-              android:label="@string/app_name">
+    <activity
+      android:name=".MainActivity"
+      android:label="@string/app_name">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
     </activity>
-    <activity android:name=".menu"
-              android:label="@string/app_name">
+    <activity
+      android:name=".menu"
+      android:label="@string/app_name">
       <intent-filter>
         <action android:name="com.thexma.kle.thebasics.MENU"/>
         <category android:name="android.intent.category.DEFAULT"/>
       </intent-filter>
     </activity>
-    <activity android:name=".TutorialOne"
-              android:label="@string/app_name">
+    <activity
+      android:name=".TutorialOne"
+      android:label="@string/app_name">
       <intent-filter>
         <action android:name="com.thexma.kle.thebasics.TUTORIALONE"/>
         <category android:name="android.intent.category.DEFAULT"/>
       </intent-filter>
     </activity>
-    <activity android:name=".TutorialTwo"
-              android:label="@string/app_name">
+    <activity
+      android:name=".TutorialTwo"
+      android:label="@string/app_name">
       <intent-filter>
         <action android:name="com.thexma.kle.thebasics.TUTORIALTWO"/>
         <category android:name="android.intent.category.DEFAULT"/>
       </intent-filter>
     </activity>
-    <activity android:name=".TutorialThree"
-              android:label="@string/app_name">
+    <activity
+      android:name=".TutorialThree"
+      android:label="@string/app_name"
+      android:screenOrientation="portrait">
       <intent-filter>
         <action android:name="com.thexma.kle.thebasics.TUTORIALTHREE"/>
         <category android:name="android.intent.category.DEFAULT"/>
       </intent-filter>
     </activity>
-    <activity android:name=".Sweet"
-              android:label="@string/app_name"
+    <activity
+      android:name=".SurfaceViewExample"
+      android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="com.thexma.kle.thebasics.TUTORIALFOUR"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+
+
+    <activity
+      android:name=".Sweet"
+      android:label="@string/app_name"
       android:theme="@android:style/Theme.Dialog">
       <intent-filter>
         <action android:name="com.thexma.kle.thebasics.SWEET"/>
@@ -53,4 +70,5 @@
     </activity>
   </application>
 
+  <uses-permission android:name="android.permission.SET_WALLPAPER"/>
 </manifest>

@@ -29,6 +29,7 @@ public class menu extends AppCompatActivity {
     Button tut1 = (Button) findViewById(R.id.tutorial1);
     Button tut2 = (Button) findViewById(R.id.tutorial2);
     Button tut3 = (Button) findViewById(R.id.tutorial3);
+    Button tut4 = (Button) findViewById(R.id.tutorial4);
     tut1.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
@@ -47,6 +48,12 @@ public class menu extends AppCompatActivity {
       @Override
       public void onClick(View v) {
         startActivity(new Intent("com.thexma.kle.thebasics.TUTORIALTHREE"));
+      }
+    });
+    tut4.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        startActivity(new Intent("com.thexma.kle.thebasics.TUTORIALFOUR"));
       }
     });
   }

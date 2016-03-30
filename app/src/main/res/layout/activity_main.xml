@@ -46,18 +46,18 @@
     android:text="Photo"
     android:textStyle="bold" />
       <Button
-        android:id="@+id/tutoria4"
+        android:id="@+id/tutorial4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Button 3"
+        android:text="Drawing Tur 4"
         android:textStyle="bold" />
       <Button
-        android:id="@+id/tutoria5"
+        android:id="@+id/tutorial5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Button 3"
+        android:text="Button 5"
         android:textStyle="bold" />
     </LinearLayout>
   </ScrollView>
